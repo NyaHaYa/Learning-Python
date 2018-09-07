@@ -57,3 +57,9 @@ a.clear()                   # {}
 ### Key로 Value 얻기 (get)
 a.get('name')               # 'pey'
 a.get('phone')              # '01012341234'
+
+### 해당 키가 딕셔너리 안에 있는지 조사하기
+a = {'name': 'pey', 'phone':'01012341234', 'brith':'1118'}
+'name' in a                 # True
+'email' in a                # False
+
